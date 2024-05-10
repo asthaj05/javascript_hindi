@@ -34,3 +34,40 @@ const myFunction = function(){
 }
 console.log(typeof myFunction);
 
+// **********************]
+
+// Stack(Primitive) , Heap(Non- Primitive)
+
+let myYoutubename = "astha jain"
+let anotherName = myYoutubename
+anotherName = "chai aur code"
+
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com", 
+    upi : "upi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "astha@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+let studentOne = {
+    email : "ashish@gmail.com",
+    upi : "ashish@ybl"
+}
+
+let studentTwo = studentOne
+
+studentTwo.email = "asthajain@gmail.com"
+
+console.log(studentOne);
+console.log(studentTwo);
+
+
