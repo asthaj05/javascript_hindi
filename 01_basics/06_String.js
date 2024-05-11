@@ -6,7 +6,7 @@ const repocount = 50
 
 // console.log(`Hello my name is ${name} and my repo count is ${repocount}`);
 
- const gameName = new String('astha-aj')
+ const gameName = new String('asthaaj')
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
@@ -17,14 +17,24 @@ const repocount = 50
 // console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0,4)
-console.log(newString); 
+// console.log(newString); 
 
 const anotherString = gameName.slice(-7,4)
-console.log(anotherString);
+// console.log(anotherString);
 
 const newStringOne =  "  astha  "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+
+const url = "https://hitesh.com/hitesh%05jain"
+
+// console.log(url.replace('%05' , '-'));
+
+// console.log(url.includes('hitesh'));
+
+// console.log(gameName.split('-'));
+
+// console.log(gameName.anchor());
 
 const url = "https://hitesh.com/hitesh%05jain"
 
